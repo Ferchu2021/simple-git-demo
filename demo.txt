@@ -1,2 +1,99 @@
-cd simple-git-demo
-git init
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gout Gluten Free</title>
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav ul li a:hover {
+            color: #ff4500;
+        }
+
+        section {
+            padding: 20px;
+            flex: 1;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú lateral -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Concepto</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Productos</a>
+                <ul>
+                    <li><a href="#">Cakes</a></li>
+                    <li><a href="#">Mini cakes</a></li>
+                    <li><a href="#">Bakery</a></li>
+                    <li><a href="#">Panes y Mermeladas</a></li>
+                    <li><a href="#">Salado</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Encabezado -->
+        <header>
+            <h1>Gout Gluten Free</h1>
+        </header>
+
+        <!-- Contenido de la página de inicio -->
+        <section>
+            <h2>Bienvenidos a Gout Gluten Free</h2>
+            <p>Un lugar dedicado especialmente a la elaboración y venta de productos libres de gluten . Esperamos que el recorrido por nuestra pagina, sea un viaje a través del placer!</p>
+            <p>Serán bienvenidos sus comentarios y su interaccion con nosotros.</p>
+			<p>TENIA QUE LLEGAR UN LUGAR DONDE LO LIBRE DE GLUTEN</p>
+            <p>SEA RICO Y ATRACTIVO A LOS OJOS</p>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Derechos de autor &copy; 2024 Gout Gluten Free. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
